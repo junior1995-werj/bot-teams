@@ -1,0 +1,28 @@
+{
+    "type": "AdaptiveCard",
+    "body": [
+        {
+            "type": "TextBlock",
+            "text": "Bem vindo ao agente virtual. Estou aqui para Ajudar. ",
+            "wrap": true
+        },
+        {
+            "type": "TextBlock",
+            "text": "Para começar, digite **Oi**.",
+            "wrap": true
+        },
+        {
+            "type": "TextBlock",
+            "text": "Se nossa conversa apresentar algum problema irrecuperável digite **restart**, para reiniciar a conversa.",
+            "wrap": true
+        }
+    ],
+    "actions": [
+        {
+            "type": "Action.Submit",
+            "title": "Inicio"
+        }
+    ],
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.5"
+}

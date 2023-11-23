@@ -1,0 +1,44 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+   {
+    "type": "TextBlock",
+    "size": "Medium",
+    "weight": "Bolder",
+    "text": "Favor descreva qual o problema que esta enfrentando no momento:",
+    "horizontalAlignment": "Center",
+    "wrap": true
+   },
+   {
+    "type": "TextBlock",
+    "text": "Assunto:",
+    "wrap": true
+   },
+   {
+    "type": "Input.Text",
+    "style": "text",
+    "id": "briefDescription",
+    "isRequired": true
+   },
+   {
+    "type": "TextBlock",
+    "text": "Descrição do problema:",
+    "wrap": true
+   },
+   {
+    "type": "Input.Text",
+    "style": "text",
+    "isMultiline": true,
+    "id": "request",
+    "isRequired": true
+   }
+  ],
+  "actions": [
+   {
+    "type": "Action.Submit",
+    "title": "Criar Chamado"
+   }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.0"
+ }
